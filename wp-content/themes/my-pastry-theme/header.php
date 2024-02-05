@@ -13,7 +13,7 @@
     <?php wp_head() ?>
     <header>
         <div class="position-relative">
-            <img src="wp-content\themes\my-pastry-theme\img\header.png" class="w-100" alt="">
+            <img src="<?= get_template_directory_uri() ?>/img/header.png" class="w-100" alt="">
             <div class="container">
                 <div class="position-absolute top-50 start-50 translate-middle">
                     <?php wp_nav_menu(

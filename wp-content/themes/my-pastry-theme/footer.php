@@ -1,6 +1,6 @@
 <footer>
     <div class="position-relative">
-        <img src="wp-content\themes\my-pastry-theme\img\footer.png" class="w-100" alt="">
+    <img src="<?= get_template_directory_uri() ?>/img/footer.png" class="w-100" alt="">
         <div class="container">
             <div class="position-absolute top-50 start-50 translate-middle">
                 <p>
